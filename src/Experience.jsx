@@ -1,5 +1,5 @@
 
-import { Center } from '@react-three/drei'
+import { Center, Stage } from '@react-three/drei'
 import { useControls } from 'leva'
 
 import GridComponent from './GridComponent'
@@ -39,14 +39,16 @@ export default function Experience()
     
     return <>
 
-        <Center>
+        <Stage
+            environment={null}
+        >
             <GridComponent 
                 type={type}
                 gap={gap}
                 row={rows}
                 col={columns}
             />
-        </Center>
+        </Stage>
 
     </>
 

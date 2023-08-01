@@ -1,6 +1,6 @@
 import './style.css'
 
-import { StrictMode, Suspense } from 'react'
+import { StrictMode } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { createRoot } from 'react-dom/client'
 
